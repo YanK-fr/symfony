@@ -70,7 +70,7 @@ class TranslationExtension extends AbstractExtension
             new TransTokenParser(),
 
             // {% transchoice count %}
-            //     {0} There is no apples|{1} There is one apple|]1,Inf] There is {{ count }} apples
+            //     {0} There is no apples|{1} There is one apple|]1,Inf] There is %count% apples
             // {% endtranschoice %}
             new TransChoiceTokenParser(),
 
